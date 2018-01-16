@@ -1,0 +1,14 @@
+#avatar {
+  height: 30px;
+}
+li {
+  display: inline;
+  float: right;
+  margin: 10px;
+}
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}

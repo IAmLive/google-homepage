@@ -1,14 +1,104 @@
+header {
+  margin: 15px 0 30px 0;
+  position: relative;
+  height: 10px;
+}
 #avatar {
   height: 30px;
 }
+ul {
+  display: flex;
+  position: absolute;
+  right: 0;
+  margin: 0 20px;
+  align-items: center;
+  justify-content: center;
+}
 li {
+  font-family: sans-serif;
+  font-size: 13px;
+  margin: 0 10px;
   display: inline;
-  float: right;
+  list-style-type: none;
+  opacity: 0.5;
+}
+li:hover {
+  opacity: 0.8;
+}
+.container {
+  display: block;
+  width: 800px;
+  height: 300px;
+  margin: 154px auto 0;
+}
+#google-logo {
+  display: block;
+  margin: 0 auto 30px;
+}
+#i-text  {
+  display: block;
+  height: 45px;
+  width: 588px;
+  margin: 0 auto 30px;
+  border: 0.5px solid #d9d9d9;
+}
+#i-text:hover {
+  box-shadow: 0px 2px 8px #dddddd;
+  outline: none;
+}
+#i-buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+a {
+  color: grey;
+  text-decoration: none;
+}
+a:hover {
+  color: black;
+}
+input[type="submit"]:first-child{
+  margin-right: 12px;
+}
+input[type="submit"]{
+  background-color: #f2f2f2;
+  color: #8c8c8c;
+  border: none;
+  height: 33px;
+  width: 125px;
+  border-radius: 5%;
+  font-weight: bold;
+}
+input[type="submit"]:hover {
+  color: black;
+  border: 0.5px solid #d9d9d9;
+}
+.footer {
+  font-family: sans-serif;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #f2f2f2;
+  display: flex;
+  justify-content: space-between;
+  height: 40px;
+  align-items: center;
+  border-top: 0.5px solid #d9d9d9;
+}
+.footer p{
+  font-size: 13px;
+  color: #8c8c8c;
+  display: inline;
   margin: 10px;
 }
-img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-
+.left{
+  margin-left: 20px;
+}
+.right{
+  margin-right: 20px;
+}
+.footer p:hover{
+  text-decoration: underline;
 }
